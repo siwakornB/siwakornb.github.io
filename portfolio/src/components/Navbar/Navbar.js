@@ -1,5 +1,5 @@
 import React from 'react'
-import { Nav,Navlink,NavMenu,Spacer } from './NavbarElements.js'
+import { Nav,Navlink,NavMenu,Bar } from './NavbarElements.js'
 
 const Navbar = () => {
     return (
@@ -8,7 +8,7 @@ const Navbar = () => {
                 <Navlink to='/github'>
                     <h1>Logo's here</h1>
                 </Navlink>
-                <Spacer/>
+                <Bar />
                 <NavMenu>
                     <Navlink to='/exp'>
                         My Experience

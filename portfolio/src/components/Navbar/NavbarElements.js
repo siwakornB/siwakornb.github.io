@@ -28,7 +28,7 @@ export const Navlink = styled(NavLink)`
     }
 `
 
-export const Spacer = styled(FaBars)`
+export const Bar = styled(FaBars)`
     display: none;
     color: #fff;
     
