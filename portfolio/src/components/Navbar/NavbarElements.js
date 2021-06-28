@@ -6,9 +6,11 @@ export const Nav = styled.nav`
     background: #000;
     height: 80px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     padding: 0.5rem calc((100vm - 1000px)/2);
     z-index: 10;
+    position: sticky;
+    top: 0 ; 
 `
 
 export const Navlink = styled(NavLink)`
@@ -24,6 +26,7 @@ export const Navlink = styled(NavLink)`
         color: #15cdfc;
     }
     &:hover {
+        transition: all 0.2s ease-in-out;
         color: orange;
     }
 `
@@ -46,7 +49,7 @@ export const Bar = styled(FaBars)`
 export const NavMenu = styled.div`
     display: flex;
     align-items: center;
-    margin-right: -24px;
+    margin-right: 50px;
 
     @media screen and (max-width: 768px){
         display: none;
