@@ -9,7 +9,7 @@ for (let i = 0; i < 20; i++) {
 
 export const home = () => {
 
-    return (
+    return ( 
         <div>
             <Section id="welcome" >Welcome</Section>
             <Section id="exp">Experience</Section>
