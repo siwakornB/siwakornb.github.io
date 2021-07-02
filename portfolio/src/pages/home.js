@@ -12,7 +12,11 @@ export const home = () => {
     return ( 
         <div>
             <Section id="welcome" >Welcome</Section>
-            <Section id="exp">Experience</Section>
+            <Section id="exp">
+                <h1>Rammbo</h1>
+                <h1>Asteroid</h1>
+                <h1>Rammbo</h1>
+            </Section>
             <Section id="skill">SkillnAbilities</Section>
             <Section id="aboutme">Aboutme+Education</Section>
         </div>
