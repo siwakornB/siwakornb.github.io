@@ -1,7 +1,8 @@
 import React from 'react'
 import { Nav,Navlink,NavMenu,Bar } from './NavbarElements.js'
+//import { executeScroll } from '../../pages/home.js'
 
-const Navbar = () => {
+const Navbar = (props) => {
 
     const tohome = () => 
         document.getElementById("welcome").scrollIntoView({ behavior: "smooth" });
