@@ -1,42 +1,47 @@
-import React,{useEffect, useCallback, useState} from 'react'
+import React from 'react'
 import { Section } from './home_style.js';
-import rammbo_home from '../assets/Rammbo-home.gif';
-import rammbo_gp from '../assets/Rammbo.gif';
-//var rammbo_gif = require('../assets/Rammbo-home.gif');
 
-const test = () => {
-    const items = [];
-    for (let i = 0; i < 20; i++) {
-        items.push(<h1>{i}</h1>);
-    }
-}
-
+import { ExpSection } from 'components/Exp/Carousel.js';
 
 export const Home = (props) => {
-    const [indexes, setIndexes] = useState({
-        previousIndex: 0,
-        currentIndex: 0,
-        nextIndex: 1,
-    });
+    
 
     return(
-        <div>
-            <Section id="welcome" >Welcome</Section>
+        <div  style={{position:'relative',overflow:'hidden'}}>
+            <Section id="welcome" color={'yellow'}>Graduated in 2021, Majoring in Computer field and having strenuously interests in any kind of Embedded System, Web-App Development, also Machine Learning field ,such as Object Classification and Detection. As for my personalities, I considered myself as adaptive, creative, open-minded, tolerant, good interpersonal, and one of the most important is that I am always willing to amend myself.</Section>
             <Section id="exp" ref={props.cusref}>
-                <div className="quote">
-                    <h1>this is gonna be where the quode is</h1>
-                </div>
-                <div className="portrait">
-                    <div className="ramboo">
-                        <img src={rammbo_home} alt=""/>
-                    </div>
-                    <div className="Asteroid">
-                    <img src={rammbo_gp} alt=""/>
-                    </div>
-                </div>
+              <ExpSection />
             </Section>
-            <Section id="skill">SkillnAbilities</Section>
-            <Section id="aboutme">Aboutme+Education</Section>
+            <Section id="skill" color={'green'}>
+                <h1>Language</h1>
+                <ul>
+                    <li>Thai – Of course, I am a native.</li>
+                    <li>English – Not as good as native, but considerably good.</li>
+                    <li>Capable of many Programming Language, for example, Java, C, C++, Python, 
+                    JavaScript (Node.js with React.js), Assembly, PHP,SQL.</li>
+                    <li>HTML and CSS</li>
+                </ul>
+                <h1>Frameworks</h1>
+                <ul>
+                    <li>Some exp of Django.</li>
+                    <li>Laravel</li>
+                    <li>Darknet and of Tensorflow</li>
+                    <li>All the well-known Microsoft office suite programs.</li>
+                </ul>
+                <h1>Others</h1>
+                <ul>
+                    <li>Linux ,Raspbian</li>
+                    <li>Jupyter notebook</li>
+                    <li>Understanding of fundamental Network.</li>
+                    <li>IOS for Cisco devices.</li>
+                    <li>NumPy, Pandas, Pillow, OpenCV2, Matplotlib.</li>
+                    <li>Amateur with ROS (Robotic Operation System).</li>
+                    <li>YOLOv4 </li>
+                    <li>Adobe XD, Photoshop, Editing with Adobe Premiere Pro.</li>
+                    <li>Figma for UX/UI design.</li>
+                </ul>
+            </Section>
+            <Section id="contact" color={'red'}>Contact Me</Section>
         </div>
     );
 }

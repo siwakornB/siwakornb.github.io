@@ -14,7 +14,7 @@ const Navbar = (props) => {
         document.getElementById("skill").scrollIntoView({ behavior: "smooth" });
 
     const tome = () => 
-        document.getElementById("aboutme").scrollIntoView({ behavior: "smooth" });
+        document.getElementById("contact").scrollIntoView({ behavior: "smooth" });
 
     return (
         <>
