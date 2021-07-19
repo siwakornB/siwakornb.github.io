@@ -1,9 +1,9 @@
 import styled from 'styled-components';
 
 export const Section = styled.section`
-    margin: 5rem 10vw;
+    padding: 0rem 7vw;
     width: auto;
-    height: 100vh;
+    min-height: 100vh;
     background-color: ${props => props.color};
 `
 export const Div = styled.div`

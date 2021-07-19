@@ -4,38 +4,26 @@ import { Nav,Navlink,NavMenu,Bar } from './NavbarElements.js'
 
 const Navbar = (props) => {
 
-    const tohome = () => 
-        document.getElementById("welcome").scrollIntoView({ behavior: "smooth" });
-
-    const toexp = () => 
-        document.getElementById("exp").scrollIntoView({ behavior: "smooth" });
-
-    const toskill = () => 
-        document.getElementById("skill").scrollIntoView({ behavior: "smooth" });
-
-    const tome = () => 
-        document.getElementById("contact").scrollIntoView({ behavior: "smooth" });
-
     return (
-        <>
-            <Nav>
-                <Navlink to='/' onClick={tohome}>
+        <div style={{position:'absolute',width:'100%'}}>
+            <Nav style={{backgroundColor: `${props.bgc}`}}>
+                <Navlink to='/' style={{color: `${props.color}`}}>
                     <h1>Portfolio</h1>
                 </Navlink>
                 <Bar />
                 <NavMenu>
-                    <Navlink to='/' onClick={toexp}>
+                    <Navlink to='/exp' style={{color: `${props.color}`}}>
                         My Experience
                     </Navlink>
-                    <Navlink to='/' onClick={toskill}>
+                    <Navlink to='/skill' style={{color: `${props.color}`}}>
                         Skill&Abilities
                     </Navlink>
-                    <Navlink to='/' onClick={tome}>
-                        Personalities
+                    <Navlink to='/aboutme' style={{color: `${props.color}`}}>
+                        About me
                     </Navlink>
                 </NavMenu>
             </Nav>
-        </>
+        </div>
     );
 };
 
