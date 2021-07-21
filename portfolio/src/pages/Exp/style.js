@@ -8,7 +8,7 @@ export const Div = styled.div`
     display: flex;
     flex-direction: ${props => props.row ? 'row': 'column'};
     ${props => props.color ? `background-color: ${props.color}`: `` };
-    width: auto;
+    width: 100%;
     height: auto;
     justify-content: space-between;
     align-items: flex-start;
@@ -57,30 +57,52 @@ export const Card = styled.li`
 
 export const WordCard = styled.div`
     color: #fff;
-    padding-left: 50px;
-    padding-top: 20px;
+    padding-left: 0px;
+    padding-top: 0px;
     transition: all 1s ease-in-out;
     transform: translateY(0%);
-    width: 100%;
+    width: 85%;
     text-align: left;
+    font-size: 20px;
+    margin: 0 auto;
 
     @media screen and (max-width: 1200px){
-        width: 20vw;
-        margin-bottom: 5rem;
+        width: 80%;
+        margin-bottom: 2rem;
         padding-top: 20px;
+        font-size: 15px;
+    }
+    @media screen and (max-width: 768px){
+        width: 80%;
+        margin-bottom: 2rem;
+        padding-top: 10px;
+        font-size: 15px;
     }
 `
 
 export const Img = styled.img`
+    
     border-radius: 3px;
-    width: calc(10rem + 55vmin);
-    max-width: 1100px;
+    width: calc(10rem + 45vmin);
+    height: auto;
+    max-width: 1000px;
+    max-height: 550px;
     transition: all 1s ease-in-out;
     z-index: ${props => props.zindex};
     transform: ${props => props.transform};
+    object-fit: cover;
 
-    @media screen and (max-width: 400px){
-        width: 20rem;
+    @media screen and (max-width: 768px){
+      width: calc(10rem + 45vmin);
+      height: auto;
+      max-height: 330px;
+      max-width: 450px;
+    }
+    @media screen and (max-width: 426px){
+      width: 20rem;
+      height: auto;
+      max-height: 300px;
+      max-width: 370px;
     }
 `
 

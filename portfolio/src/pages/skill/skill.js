@@ -2,7 +2,7 @@ import { Fade,Reveal } from 'react-reveal';
 
 export const SkillSection = () => {
     return(
-        <div style={{backgroundColor:'#2a9d8f',display:'grid'}}>
+        <div style={{backgroundColor:'#2a9d8f',width:'100%',minHeight:'100vh',padding:'12vh 9vw 0px',fontSize:'20px'}}>
             <Fade bottom cascade>
             <h1>Language</h1>
             <ul>

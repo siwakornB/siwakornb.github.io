@@ -6,6 +6,7 @@ import { TransitionGroup,CSSTransition } from 'react-transition-group';
 import {WelcomeSection} from './pages/Welcome/Welcome.js';
 import {ExpSection} from './pages/Exp/Exp.js';
 import {SkillSection} from './pages/skill/skill.js';
+import {AboutmeSection} from './pages/Aboutme/aboutme.js';
 //import { div,section,col,button } from 'react-bootstrap';
 //import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -24,7 +25,7 @@ function App() {
   return (
     <div>
       
-    <Navbar color={location.pathname === '/exp' ? '#fff':'#000'} />
+    <Navbar color={location.pathname === '/exp' ? '#17252a':'#000'} />
     <TransitionGroup>
     <CSSTransition
       key={location.key}
@@ -35,7 +36,7 @@ function App() {
       <Route path="/" exact component={() => <WelcomeSection bgc={bg[0]}/>} />
       <Route path="/exp" exact component={() => <ExpSection bgc={bg[1]}/>} />
       <Route path="/skill" exact component={() => <SkillSection bgc={bg[2]}/>} />
-      <Route path="/aboutme" exact component={() => <WelcomeSection bgc={bg[2]}/>} />
+      <Route path="/aboutme" exact component={() => <AboutmeSection bgc={bg[2]}/>} />
     </ Switch>
     </CSSTransition>
     </TransitionGroup>
