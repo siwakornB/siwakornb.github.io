@@ -1,19 +1,25 @@
 {
   "files": {
     "main.css": "/static/css/main.ca0efa08.chunk.css",
-    "main.js": "/static/js/main.5d6e58aa.chunk.js",
-    "main.js.map": "/static/js/main.5d6e58aa.chunk.js.map",
+    "main.js": "/static/js/main.79b5453d.chunk.js",
+    "main.js.map": "/static/js/main.79b5453d.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.5ebc510a.js",
     "runtime-main.js.map": "/static/js/runtime-main.5ebc510a.js.map",
     "static/css/2.7fc9bc2b.chunk.css": "/static/css/2.7fc9bc2b.chunk.css",
-    "static/js/2.1e17170e.chunk.js": "/static/js/2.1e17170e.chunk.js",
-    "static/js/2.1e17170e.chunk.js.map": "/static/js/2.1e17170e.chunk.js.map",
+    "static/js/2.afeabfb6.chunk.js": "/static/js/2.afeabfb6.chunk.js",
+    "static/js/2.afeabfb6.chunk.js.map": "/static/js/2.afeabfb6.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.7fc9bc2b.chunk.css.map": "/static/css/2.7fc9bc2b.chunk.css.map",
     "static/css/main.ca0efa08.chunk.css.map": "/static/css/main.ca0efa08.chunk.css.map",
-    "static/js/2.1e17170e.chunk.js.LICENSE.txt": "/static/js/2.1e17170e.chunk.js.LICENSE.txt",
+    "static/js/2.afeabfb6.chunk.js.LICENSE.txt": "/static/js/2.afeabfb6.chunk.js.LICENSE.txt",
+    "static/media/Rammbo-home.c341bdd2.gif": "/static/media/Rammbo-home.c341bdd2.gif",
     "static/media/images.css": "/static/media/uxui.da63aa1f.gif",
     "static/media/cv.659ac464.pdf": "/static/media/cv.659ac464.pdf",
+    "static/media/gameplay.0c204bc2.png": "/static/media/gameplay.0c204bc2.png",
+    "static/media/lar_censor.414a1062.png": "/static/media/lar_censor.414a1062.png",
+    "static/media/lar_home.ddd7f670.png": "/static/media/lar_home.ddd7f670.png",
+    "static/media/lar_profile.cfe2aa65.png": "/static/media/lar_profile.cfe2aa65.png",
+    "static/media/lar_profile_change.ff41bcd9.png": "/static/media/lar_profile_change.ff41bcd9.png",
     "static/media/matlab.b79d9fb8.svg": "/static/media/matlab.b79d9fb8.svg",
     "static/media/matplot.829556f2.svg": "/static/media/matplot.829556f2.svg",
     "static/media/numpy.58d02ed3.svg": "/static/media/numpy.58d02ed3.svg",
@@ -24,8 +30,8 @@
   "entrypoints": [
     "static/js/runtime-main.5ebc510a.js",
     "static/css/2.7fc9bc2b.chunk.css",
-    "static/js/2.1e17170e.chunk.js",
+    "static/js/2.afeabfb6.chunk.js",
     "static/css/main.ca0efa08.chunk.css",
-    "static/js/main.5d6e58aa.chunk.js"
+    "static/js/main.79b5453d.chunk.js"
   ]
 }
